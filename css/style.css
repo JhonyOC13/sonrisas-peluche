@@ -46,13 +46,7 @@ nav a {
 }
 
 footer {
-    align-items: center;
-    padding: 0px;
     background-color: #d9d9d9;
-    color: black;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 }
 
 .icon {
@@ -84,13 +78,13 @@ footer {
 .home{
     text-align: center;
     align-items: center;
-    padding: 50px;
+    padding: 42px;
     position: relative;
 }
 
 .home {
     background-image: url('../assets/Imagenes/Trazo_rosa.png');
-    background-size: 852px 599px;
+    background-size: 850px 599px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -133,12 +127,26 @@ footer {
     background-color: gray;
 }
 
-.contacto{
+.contacto {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.instagram a, .instagram img {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+}
+
+.direccion{
     list-style-type: none;
-    padding: 0px;
-    position: relative;
 }
 
 .product-card {
