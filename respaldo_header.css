@@ -1,0 +1,47 @@
+.icon {
+    display: flex;
+    align-items: center;
+    padding: 0 0;
+    margin: 0;
+}
+
+.icon img {
+    width: 40px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    width: 25px;
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    list-style-type: none;
+    gap: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: #703154;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20 px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}

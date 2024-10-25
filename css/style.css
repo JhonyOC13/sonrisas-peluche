@@ -25,54 +25,14 @@ h2 {
     text-align: center;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    background-color: #703154;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    gap: 20 px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    align-items: center;
-}
-
 footer {
     background-color: #d9d9d9;
 }
 
-.icon {
-    display: flex;
-    align-items: center;
-}
-
-.icon img {
-    width: 40px;
-}
-
-.cart {
-    display: flex;
-    align-items: center;
-}
-
-.cart img {
-    width: 25px;
-}
-
-.navegacion{
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
+footer li {
     list-style-type: none;
-    gap: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .home{
@@ -84,7 +44,7 @@ footer {
 
 .home {
     background-image: url('../assets/Imagenes/Trazo_rosa.png');
-    background-size: 850px 599px;
+    background-size: 850px px;
     background-position: center;
     background-repeat: no-repeat;
 }
