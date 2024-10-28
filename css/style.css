@@ -12,12 +12,17 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: "Poppins", system-ui;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1 {
     font-family: "Italiana", system-ui;
     text-align: center;
+    margin: 2rem;
 }
 
 h2 {
@@ -25,49 +30,98 @@ h2 {
     text-align: center;
 }
 
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
     background-color: #d9d9d9;
 }
 
-footer li {
-    list-style-type: none;
-    align-items: center;
+header {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #703154;
+}
+
+main {
+    flex: 1;
+
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+    color: #FFFFFF;
+    list-style-type: none;
+    gap: 6.25rem;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    padding: 0 0;
+    margin: 0;
+}
+
+.icon img {
+    width: 40px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.cart img {
+    width: 25px;
 }
 
 .home{
     text-align: center;
     align-items: center;
-    padding: 42px;
-    position: relative;
+    padding-top: 5vh;
 }
 
 .home {
     background-image: url('../assets/Imagenes/Trazo_rosa.png');
-    background-size: 850px px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.aboutUs {
-    background-image: url('../assets/Imagenes/Trazo_rosa.png');
-    background-size: 852px 599px;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .logo img{
     width: 180px;
+    align-items: center;
 }
 
 .title1 {
-    font-size: 36px;
+    font-size: 150%;
+    font-weight: bold;
     margin: 20px 0;
+    padding-right: 25vw;
     color: black;
 }
 
 .title2 {
-    font-size: 36px;
+    font-size: 150%;
+    font-weight: bold;
+    padding-left: 25vw;
     color: black;
 }
 
@@ -87,10 +141,21 @@ footer li {
     background-color: gray;
 }
 
-.contacto {
+.contacto{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    gap: 0;
+}
+
+.contacto nav ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20vh;
 }
 
 .instagram a, .instagram img {
@@ -98,15 +163,55 @@ footer li {
     align-items: center;
     text-decoration: none;
     color: black;
+    font-size: small;
 }
 
-.whatsapp {
+.instagram img{
+    width: 20%;
+    height: auto;
+}
+
+.whatsapp a, .whatsapp img{
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: small;
 }
 
-.direccion{
-    list-style-type: none;
+.whatsapp img{
+    width: 23%;
+    height: auto;
+}
+.direccion a, .direccion img{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.direccion img {
+    width: 10%;
+    height: auto;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+}
+
+.sign p {
+    font-size: xx-small;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.aboutUs {
+    background-image: url('../assets/Imagenes/Trazo_rosa.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .product-card {
