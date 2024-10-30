@@ -76,12 +76,12 @@ footer {
 
 .icon img {
     width: 40px;
+    padding-left: 10px;
 }
 
 .cart {
     display: flex;
     align-items: center;
-    padding-right: 50px;
 }
 
 .cart img {
@@ -94,7 +94,7 @@ footer {
     align-items: center;
     text-align: center;
     background-image: url('../assets/Imagenes/Trazo_rosa.png');
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -249,6 +249,10 @@ footer {
         color: #FFFFFF;
     }
 
+    .cart{
+        padding-right: 0;
+    }
+
     .title1{
         font-size: 120%;
         padding-right: 5vw;   
@@ -260,8 +264,23 @@ footer {
     }
 
     footer a {
-        font-size: .375rem;
+        font-size: 6px;
     } 
+
+    .instagram img {
+        width: 35px;
+        height: auto;
+    }
+    
+    .whatsapp img {
+        width: 31px;
+        height: auto;
+    }
+    
+    .location img {
+        width: 30px;
+        height: auto;
+    }
 
     .sign p{
         font-size: .25rem;
