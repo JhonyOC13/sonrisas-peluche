@@ -12,11 +12,10 @@
 }
 
 body{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: "Poppins", system-ui;
-    min-height: 100vh;
-    margin: 0;
 }
 
 h1 {
@@ -39,14 +38,6 @@ nav a {
     color: white;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    background-color: #d9d9d9;
-}
-
 header {
     display: flex;
     justify-content: center;
@@ -55,10 +46,15 @@ header {
     background-color: #703154;
 }
 
-main {
-    flex: 1;
-
+header a img {
+    width: 12.5rem;
 }
+
+footer {
+    margin-top: auto;
+    background-color: #d9d9d9;
+}
+
 
 .navegacion{
     display: flex;
@@ -93,22 +89,25 @@ main {
 }
 
 .home{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-top: 5vh;
-}
-
-.home {
+    text-align: center;
     background-image: url('../assets/Imagenes/Trazo_rosa.png');
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+
 .logo img{
-    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 11.25rem;
     align-items: center;
 }
+
 
 .title1 {
     font-size: 150%;
@@ -145,54 +144,37 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0;
+    margin-bottom: 0;
 }
 
-.contacto nav ul{
+.contacto ul {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: row;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-    gap: 20vh;
+    margin-bottom: 0;
+    margin-top: .625rem;
+    padding-left: 0;
+    font-size: 14px;
+    gap: .625rem;
 }
 
-.instagram a, .instagram img {
-    display: flex;
-    align-items: center;
+.contacto a {
     text-decoration: none;
     color: black;
-    font-size: small;
 }
 
-.instagram img{
-    width: 20%;
+.instagram img {
+    width: 2.8125rem;
     height: auto;
 }
 
-.whatsapp a, .whatsapp img{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-size: small;
-}
-
-.whatsapp img{
-    width: 23%;
+.whatsapp img {
+    width: 2.5625rem;
     height: auto;
 }
-.direccion a, .direccion img{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-size: small;
-}
 
-.direccion img {
-    width: 10%;
+.location img {
+    width: 40px;
     height: auto;
 }
 
@@ -205,6 +187,85 @@ main {
     font-size: xx-small;
     margin: 0;
     margin-bottom: 5px;
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px){
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    .home {
+        padding: 118px;
+    }
+
+    .title1{
+        font-size: 140%;
+    }
+
+    .title2{
+        font-size: 140%;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px){
+    .title1{
+        padding-right: 7vw;   
+    }
+
+    .title2{
+        padding-left: 7vw;
+    }
+
+    .home{
+        background-size: cover;
+    }
+
+    .logo img{
+        margin-bottom: 3.75rem;
+    }
+
+    .cart{
+        padding-right: 20px;
+    }
+
+}
+
+@media all and (max-width: 480px){
+    .navbar>.container-fluid {
+        justify-content: center !important;
+    }
+
+    .home {
+        margin-top: 4.375rem;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-active{
+        color: #FFFFFF;
+    }
+
+    .title1{
+        font-size: 120%;
+        padding-right: 5vw;   
+    }
+
+    .title2{
+        font-size: 120%;
+        padding-left: 5vw;
+    }
+
+    footer a {
+        font-size: .375rem;
+    } 
+
+    .sign p{
+        font-size: .25rem;
+    }
 }
 
 .aboutUs {

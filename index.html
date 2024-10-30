@@ -8,20 +8,30 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+    <header class="container-fluid">
         <div>
-            <nav>
-                <ul class="navegacion">
-                    <li><a href="./pages/Nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/Productos.html">Productos</a></li>
-                    <div class="icon">    
-                        <a href=""><img src="./assets/Imagenes/Icono_Logo.png" alt=""></a>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><img src="./assets/Imagenes/Menu.png" alt="Menu"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navegacion navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item"><a href="./pages/Nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item"><a href="./pages/Productos.html">Productos</a>
+                            </li>
+                            <div class="icon">    
+                                <a href=""><img src="./assets/Imagenes/Icono_Logo.png" alt=""></a>
+                            </div>
+                            <li class="nav-item"><a href="./pages/Experiencias.html">Experiencias</a>
+                            </li>
+                            <div class="cart">    
+                                <a href="./pages/Carrito.html"><img src="./assets/Imagenes/carrito-de-compras.png" alt=""></a>                    
+                            </div>                    
+                        </ul>
                     </div>
-                    <li><a href="./pages/Experiencias.html">Experiencias</a></li>
-                    <div class="cart">    
-                        <a href="./pages/Carrito.html"><img src="./assets/Imagenes/carrito-de-compras.png" alt=""></a>                    
-                    </div>                    
-                </ul>
+                </div>
             </nav >
         </div>
     </header>
@@ -32,7 +42,7 @@
                 <img src="./assets/Imagenes/Logo.png" alt="">
             </div>
             <div>
-                <h1>
+                <h1 class = "slogan">
                     <div class="title1">
                         Regala una sonrisa...
                     </div>
@@ -40,9 +50,9 @@
                         ...regala un peluche
                     </div>
                 </h1>
-                <div>
-                    <a href="./pages/Nosotros.html"><button class="descubre">Descubre más</button></a>
-                </div>
+            </div>
+            <div>
+                <a href="./pages/Productos.html"><button class="descubre">Sonríe :)</button></a>
             </div>
         </section>
     </main>
@@ -57,13 +67,13 @@
                         </div>
                     </li>
                     <li>
-                        <div class="whatsapp">
-                        <a href=""><img src="./assets/Imagenes/WhatsApp.png" alt="WhatsApp">55 2882 7721</a>
+                        <div class="location">
+                        <a href=""><img src="./assets/Imagenes/Location on.png" alt="Ubicación">59892 Crescent Road, Mableborough 27736</a>
                         </div>
                     </li>
                     <li>
-                        <div class="direccion">
-                        <a href=""><img src="./assets/Imagenes/Location on.png" alt="Ubicación">59892 Crescent Road, Mableborough 27736</a>
+                        <div class="whatsapp">
+                        <a href=""><img src="./assets/Imagenes/WhatsApp.png" alt="WhatsApp">55 2882 7721</a>
                         </div>
                     </li>
                 </ul>
@@ -73,5 +83,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
