@@ -397,7 +397,7 @@ footer {
 
     .nosotroscontenido img {
         width: 10.75rem;
-        margin-top: 7.1875rem;
+        margin-top: 0.1875rem;
     }
 
     .aboutUs {
@@ -407,7 +407,7 @@ footer {
     }
 
     .aboutUs p{
-        font-size: 10px;
+        font-size: .625rem;
     }
 }
 
