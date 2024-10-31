@@ -395,11 +395,13 @@ footer {
 
     .nosotroscontenido img {
         width: 10.75rem;
+        margin-top: 2.1875rem;
     }
 
     .aboutUs {
         margin-left: 0;
         height: 20.25rem;
+        margin-top: 1.25rem;
     }
 
     .aboutUs p{
