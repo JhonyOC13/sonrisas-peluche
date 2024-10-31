@@ -352,7 +352,7 @@ footer {
 
 .aboutUs {
     background-image: url('../assets/Imagenes/Trazo_rosa.png');
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
