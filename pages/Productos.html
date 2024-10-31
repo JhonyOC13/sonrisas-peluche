@@ -9,30 +9,43 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <nav>
-                <ul class="navegacion">
-                    <li><a href="./Nosotros.html">Nosotros</a></li>
-                    <li><a href="">Productos</a></li>
-                    <div class="icon">    
-                        <a href="../index.html"><img src="../assets/Imagenes/Icono_Logo.png" alt=""></a>
+    <header class="container-fluid">
+        <div class="navegacion">
+            <div class="icon">    
+                <a href="../index.html"><img src="../assets/Imagenes/Icono_Logo.png" alt=""></a>
+            </div>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><img src="../assets/Imagenes/Menu.png"" alt="Menu"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navegacion navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a href="./Nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./Productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./Experiencias.html">Experiencias</a>
+                            </li>                   
+                        </ul>
                     </div>
-                    <li><a href="./Experiencias.html">Experiencias</a></li>
-                    <div class="cart">    
-                        <a href="./Carrito.html"><img src="../assets/Imagenes/carrito-de-compras.png" alt=""></a>                    
-                    </div>                    
-                </ul>
+                </div>
             </nav >
+            <div class="cart">    
+                <a href="./Carrito.html"><img src="../assets/Imagenes/carrito-de-compras.png" alt=""></a>                    
+            </div> 
         </div>
     </header>
 
     <main>
         <section class="home">
-            <div>
+            <div class="productostitulo">
                 <h2>PRODUCTOS</h2>
             </div>
-        <div class="product-container">
+        <div class="product-container1">
             <article class="product-card">
                 <div class="product-img">
                     <img src="../assets/Imagenes/Coco_fit.png" alt="Imagen de producto">
@@ -81,6 +94,8 @@
                     <a href=""><img src="../assets/Imagenes/AddShoppingCart.png" alt="Icono_addCart"></a>
                 </div>
             </article>
+        </div>
+        <div class="product-container2">
             <article class="product-card">
                 <div class="product-img">
                     <img src="../assets/Imagenes/Coco_fit.png" alt="Imagen de producto">
@@ -134,18 +149,29 @@
     </main>
 
     <footer>
-        <div>
-            <ul class="contacto">
-                <div class="instagram">
-                    <a href="https://www.instagram.com/sonrisas_de_peluche?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="../assets/Imagenes/Instagram.png" alt="">@sonrisas_de_peluche</a>
-                </div>
-                <div class="whatsapp">
-                    <img src="../assets/Imagenes/WhatsApp.png" alt=""><p>55 2882 7721</p>
-                </div>
-                <div class="direccion">
-                <li><p>59892 Crescent Road, Mableborough 27736</p></li>
-                </div>
-            </ul>
+        <div class="contacto">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="instagram">
+                        <a href="https://www.instagram.com/sonrisas_de_peluche?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="../assets/Imagenes/Instagram.png" alt="Instagram">@sonrisas_de_peluche</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="location">
+                        <a href=""><img src="../assets/Imagenes/Location on.png" alt="Ubicación">59892 Crescent Road, Mableborough 27736</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="whatsapp">
+                        <a href=""><img src="../assets/Imagenes/WhatsApp.png" alt="WhatsApp">55 2882 7721</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sign">
+                <p>JEODesign</p>
+            </div>
         </div>
     </footer>
 </body>

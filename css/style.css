@@ -30,7 +30,6 @@ h2 {
     font-family: "Italiana", system-ui;
     text-align: center;
     font-size: 4rem;
-    margin-top: 3.25rem;
 }
 
 nav {
@@ -249,7 +248,8 @@ footer {
     }
 
     .home {
-        margin-top: 4.375rem;
+        margin-top: 0;
+        height: 44.5rem;
     }
 
     .icon img{
@@ -312,6 +312,8 @@ footer {
 .nosotrostitulo{
     display: flex;
     justify-content: center;
+    margin-bottom: .8125rem;
+    margin-top: 1.25rem;
 }
 
 .nosotroscontenido{
@@ -321,13 +323,16 @@ footer {
     margin-right: auto;
     margin-left: auto;
     width: 62.5rem;
-    height: 37.5rem;
+    height: 30.5rem;
 }
 
 .nosotroscontenido img{
     width: 18.75rem;
     height: auto;
     border-radius: 3.125rem;
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    )
 }
 
 .aboutUs{
@@ -433,22 +438,91 @@ footer {
     height: 30px;
 }
 
-.product-container {
+.productostitulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.8125rem;
+    margin-top: 0;
+}
+
+.product-container1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 1.25rem;
 }
-.experience {
-    width: 350px;
-    height: 550px;
+
+.product-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1.25rem;
+    margin-top: 10px;
+}
+
+.experiencias{
+    display: flex;
+    height: 47.5rem;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    background-image: url('../assets/Imagenes/Trazo_rosa.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.experienciastitulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: .8125rem;
+    margin-top: 1.25rem;
+}
+
+.experience1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.experience1 p{
+    margin-top: 2.1875rem;
+    margin-bottom: 2.1875rem;
+}
+
+.experience2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.experience2 img{
+    margin-top: 1.875rem;
+}
+
+.experience3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.experience3 p{
+    margin-top: 1.6875rem;
 }
 
 .experience-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.imagenexperience img {
+    width: 65%;
+    border-radius: 20px;
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    );
 }
 
 .purchaseStatus {
